@@ -1,0 +1,95 @@
+/* Valores globais */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: .5s linear;
+    z-index: 0;
+}
+
+body {
+    height: 1000vh;
+}
+
+main {
+    height: auto;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* Classes globais */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEADER */
+
+header {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    padding: 20px 10vw;
+    z-index: 1;
+}
+
+header.rolagem {
+    background-color: var(--black);
+}
+
+/* Logo */
+
+#logo {
+    max-width: 100px;
+}
+
+/* Opções */
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 2.1vw;
+}
+
+header ul li a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+header.rolagem ul li a {
+    color: #fff;
+}
+
+/* Icones */
+
+header i {
+    color: var(--black);
+    font-size: 25px;
+    margin: 0 1vw;
+}
+
+header.rolagem i {
+    color: #fff;
+}
