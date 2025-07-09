@@ -44,7 +44,7 @@ header {
     background-color: transparent;
     position: fixed;
     width: 100%;
-    padding: 20px 10vw;
+    padding: 10px 10vw;
     z-index: 1;
 }
 
@@ -55,7 +55,7 @@ header.rolagem {
 /* Logo */
 
 #logo {
-    max-width: 100px;
+    max-width: 70px;
 }
 
 /* Opções */
@@ -86,7 +86,7 @@ header.rolagem ul li a {
 
 header i {
     color: var(--black);
-    font-size: 25px;
+    font-size: 20px;
     margin: 0 1vw;
 }
 
