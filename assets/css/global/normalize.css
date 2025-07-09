@@ -75,7 +75,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline 3px;
 }
 
 header.rolagem ul li a {

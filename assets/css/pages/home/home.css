@@ -2,7 +2,7 @@
 /* Importação Global */
 @import "/assets/css/global/global.css";
 
-/* Banner */
+/* BANNER */
 
 #banner {
     background-image: url("/assets/img/pages/home/banner.jpg");
@@ -56,4 +56,50 @@
 
 #banner.rolagem a {
   opacity: 0;
+}
+
+/* MAIN */
+
+/* CaféBresa */
+
+#CafeBresa {
+  width: 100%;
+  height: auto;
+  padding: 6.5vh 4%;
+}
+
+.box-Cafe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.img-Cafe {
+  width: 40vh;
+  height: 100%;
+}
+
+#Cafebresa img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: red;
+}
+
+.box-Cafe h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+}
+
+.box-Cafe p { 
+  max-width: 700px;
+  font-size: 20px;
+}
+
+/* Notícias */
+
+#noticias {
+  width: 100%;
+  height: auto;
 }
