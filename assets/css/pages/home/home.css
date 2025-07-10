@@ -97,9 +97,83 @@
   font-size: 20px;
 }
 
-/* Notícias */
+/* Produtos */
 
-#noticias {
+#produtos {
   width: 100%;
-  height: auto;
+  height: 80vh;
+  padding: 8vh 0;
+  position: relative;
+}
+
+.cont-Produtos {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+}
+
+.box-Produtos {
+  flex: 1;
+  height: 60vh;
+  transition: .4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.cont-Produtos:hover .box-Produtos {
+  flex: 0.93;
+}
+
+.cont-Produtos:hover .box-Produtos:hover {
+  flex: 1.5;
+}
+
+.box-Produtos img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.caixa-Escondida {
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+  width: 100%;
+  height: 30%;
+  background-color: #ffffffbe;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.box-Produtos:hover .caixa-Escondida {
+  opacity: 1;
+  visibility: visible;
+}
+
+#produtos button {
+  width: 12vw;
+  height: 5vh;
+  background-color: #6C757D;
+  color: #fff;
+  border: none;
+  transition: .4s;
+  font-family: "Montsserat", sans-serif;
+  font-weight: 600;
+}
+
+#produtos button:hover {
+  background-color: #5C636A;
+}
+
+.box-Produtos a {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .4s;
+  z-index: 2;
 }

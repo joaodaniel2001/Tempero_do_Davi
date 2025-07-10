@@ -50,11 +50,11 @@ const imagens = [
     "./assets/img/pages/home/davi-img04.jpg"
 ]
 
-const imagem =  document.getElementById("imgCafeBresa")
+const imagem = document.getElementById("imgCafeBresa")
 let index = 0
 
-setInterval (() => {
-    index = (index + 1) %imagens.length
+setInterval(() => {
+    index = (index + 1) % imagens.length
     if (imagem) {
         imagem.src = imagens[index]
     }
